@@ -10,7 +10,7 @@ import com.example.demo.model.Book;
 import com.example.demo.services.BookService;
 
 @RestController
-@RequestMapping(path = "/api/v1/students")
+@RequestMapping(path = "/api/v1")
 public class BookController {
 
 	@Autowired
